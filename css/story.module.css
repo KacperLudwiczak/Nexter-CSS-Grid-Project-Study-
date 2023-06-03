@@ -1,0 +1,7 @@
+.story__pictures {
+  background-color: var(--color-primary);
+}
+
+.story__content {
+  background-color: var(--color-grey-light-1);
+}
