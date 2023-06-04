@@ -6,11 +6,21 @@
 .heading-2 {
   font-weight: 400;
   font-family: var(--font-display);
+  font-size: 4rem;
+  font-style: italic;
+  line-height: 1;
+}
+
+.heading-2 heading-2--dark {
+  color: var(--color-grey-dark-1);
 }
 
 .heading-3 {
   font-weight: 400;
   font-family: var(--font-display);
+  font-size: 1.6rem;
+  color: var(--color-primary);
+  text-transform: uppercase;
 }
 
 .heading-4 {
@@ -21,4 +31,37 @@
 
 .heading-4 heading-4--dark {
   color: var(--color-grey-dark-1);
+}
+
+.btn {
+  background-color: var(--color-primary);
+  color: #fff;
+  border-radius: 0;
+  border: none;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  padding: 1.8rem 3rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.mb-sm {
+  margin-bottom: 2rem;
+}
+
+.mb-md {
+  margin-bottom: 3rem;
+}
+
+.mb-lg {
+  margin-bottom: 4rem;
+}
+
+.mb-hg {
+  margin-bottom: 8rem;
 }
